@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**UtilityDashboard** is a "Mission Control" style dashboard for your local network. It provides a centralized interface to monitor your server hardware, media services, network traffic, and game servers.
 
-## Getting Started
+Built with **Next.js**, **Tailwind CSS**, and **Framer Motion**, it features a "Fluent Design" aesthetic with glassmorphism, fluid animations, and a mobile-responsive layout.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+* **Mission Control (Home):** A "Bento Grid" overview of your entire system status, including weather, CPU load graphs, and a quick-launch dock.
+* **NAS Telemetry:** Deep hardware inspection showing real-time CPU core usage, RAM distribution, and physical drive health.
+* **Arr Logistics:** A complete media management suite. View your download queue, upcoming TV calendar, and grab history.
+* **Jellyfin Theater:** A "Netflix-style" view of who is watching what. Includes transcoding status and user activity logs.
+* **Network Ops:** A sci-fi inspired "NOC" page showing real-time bandwidth usage, active interface details, and a live socket connection matrix.
+* **Minecraft Ops:** A server management blade with a live RCON terminal, visual player roster (with skins), and one-click environment controls.
+* **Settings System:** A robust configuration page with accent color customization, data polling rate controls, and a draft/save system.
+
+---
+
+## 🛠️ Prerequisites
+
+Before you begin, ensure you have the following installed on the machine that will run the dashboard:
+
+* **Node.js** (Version 18 or higher recommended) - [Download Here](https://nodejs.org/)
+* **Git** - [Download Here](https://git-scm.com/)
+
+You will also need the API Keys and IP addresses for the services you want to track (Sonarr, Radarr, Jellyfin, etc.).
+
+---
+
+## 📦 Installation
+
+### 1. Clone the Repository
+Open your terminal (Command Prompt, PowerShell, or Terminal) and run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/YOUR_USERNAME/lan-dashboard.git](https://github.com/YOUR_USERNAME/lan-dashboard.git)
+cd lan-dashboard
