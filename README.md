@@ -68,13 +68,12 @@ Example .env.local file:
 # KEY: Found in Settings > General > API Key inside the specific app
 
 NEXT_PUBLIC_JELLYFIN_URL=[http://192.168.1.50:8096](http://192.168.1.50:8096)
-JELLYFIN_KEY=446f72d4cd434a15927dcbe624241866
-
+JELLYFIN_KEY=
 NEXT_PUBLIC_SONARR_URL=[http://192.168.1.50:8989](http://192.168.1.50:8989)
-SONARR_KEY=3c30aa406b2e475285d8dd9e1a0454f2
+SONARR_KEY=
 
 NEXT_PUBLIC_RADARR_URL=[http://192.168.1.50:7878](http://192.168.1.50:7878)
-RADARR_KEY=6bc361d992f244089286b9e7e7b6298f
+RADARR_KEY=
 
 # --- MINECRAFT SERVER ---
 # Ensure "enable-rcon=true" is set in your server.properties file on the MC server
