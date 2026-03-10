@@ -32,7 +32,7 @@ Git: Download Here.
 
 Your Server Details: IP addresses and API Keys for services you want to track (Jellyfin, Sonarr, etc.).
 
-📥 Installation Guide
+ Installation Guide
 
 1. Download the Code
 
