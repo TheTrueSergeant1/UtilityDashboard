@@ -1,26 +1,26 @@
-🚀 UtilityDashboard
+ UtilityDashboard
 
 The Ultimate Homelab Command Center.
 
 UtilityDashboard is a professional, high-performance dashboard designed to monitor your local network, media servers, and game servers. Built with Next.js, Tailwind CSS, and Framer Motion, it provides a cinematic and data-rich interface for your personal server.
 
-✨ Features
+ Features
 
-🎛️ Mission Control: A "Glassmorphism" home screen featuring real-time CPU/RAM visualization, Smart Alerts, and a Quick Launch Dock.
+ Mission Control: A "Glassmorphism" home screen featuring real-time CPU/RAM visualization, Smart Alerts, and a Quick Launch Dock.
 
-📡 Network Operations Center (NOC): "Matrix-style" monitoring of active connections, bandwidth usage (Upload/Download), and interface discovery.
+ Network Operations Center (NOC): "Matrix-style" monitoring of active connections, bandwidth usage (Upload/Download), and interface discovery.
 
-🎬 Jellyfin Theater: A cinematic "Now Playing" interface. See active streams, transcoding status, and user watch history in real-time.
+ Jellyfin Theater: A cinematic "Now Playing" interface. See active streams, transcoding status, and user watch history in real-time.
 
-📦 Arr Logistics: A logistics suite for Sonarr (TV) and Radarr (Movies). View queues, upcoming premiere calendars, and download history.
+ Arr Logistics: A logistics suite for Sonarr (TV) and Radarr (Movies). View queues, upcoming premiere calendars, and download history.
 
-💾 NAS Telemetry: Deep hardware stats including physical disk health, specific core temperatures, and logical volume mapping.
+ NAS Telemetry: Deep hardware stats including physical disk health, specific core temperatures, and logical volume mapping.
 
-⛏️ Minecraft Ops: A full RCON terminal, player roster with 3D skin previews, and environmental controls (Time/Weather/Difficulty).
+ Minecraft Ops: A full RCON terminal, player roster with 3D skin previews, and environmental controls (Time/Weather/Difficulty).
 
-⚙️ Transactional Settings: A safe configuration manager to adjust refresh rates, accent colors, and server identity without code changes.
+ Transactional Settings: A safe configuration manager to adjust refresh rates, accent colors, and server identity without code changes.
 
-🛠️ Prerequisites
+ Prerequisites
 
 Before installing, ensure your computer has the following:
 
@@ -49,7 +49,7 @@ This downloads the "engines" required to run the dashboard (like React, Next.js,
 npm install
 
 
-🔑 Configuration (Important!)
+ Configuration (Important!)
 
 The dashboard needs to know where your servers are. We use a secure environment file for this.
 
@@ -110,7 +110,7 @@ npm start
 
 Open your browser to: http://localhost:3000
 
-❓ Troubleshooting
+ Troubleshooting
 
 "The site won't load / Connection Refused"
 
@@ -139,7 +139,7 @@ Double-check your API Keys in .env.local. Even one missing character will break 
 
 Ensure your services (Sonarr/Radarr) are actually running.
 
-📱 Mobile Access
+ Mobile Access
 
 To view this on your phone:
 
